@@ -1,0 +1,22 @@
+ 1. Inicio
+ 
+ 2. valor(5), i[0 - n]
+ 3. mensaje, x(1000)[{a - z}, {A - Z}, {BS}] ← ""
+ 4. indice, i[0 - n]
+ 5. dias(5), x(20)[{a-z}, {BS}] 
+ 6. dias[0] ← "Lunes"
+ 7. dias[1] ← "Martes"
+ 8. dias[2] ← "Miércoles"
+ 9. dias[3] ← "Jueves"
+10. dias[4] ← "Viernes"
+
+14. Para (indice ← 0, indice < 5, 1) haga	
+15.      <<"Ingrese el número de ventas del día " + dias[indice] + " :"
+16.      >> valor[indice]
+
+17.      mensaje ← mensaje + dias[indice] + " $ " + valor[indice] + "\n"
+
+18. Fin Para
+19. << mensaje 
+
+20. Fin
