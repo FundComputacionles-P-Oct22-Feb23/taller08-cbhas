@@ -10,13 +10,13 @@
  9. dias[3] ← "Jueves"
 10. dias[4] ← "Viernes"
 
-14. Para (indice ← 0, indice < 5, 1) haga	
-15.      <<"Ingrese el número de ventas del día " + dias[indice] + " :"
-16.      >> valor[indice]
+11. Para (indice ← 0, indice < 5, 1) haga	
+12.      <<"Ingrese el número de ventas del día " + dias[indice] + " :"
+13.      >> valor[indice]
 
-17.      mensaje ← mensaje + dias[indice] + " $ " + valor[indice] + "\n"
+14.      mensaje ← mensaje + dias[indice] + " $ " + valor[indice] + "\n"
 
-18. Fin Para
-19. << mensaje 
+15. Fin Para
+16. << mensaje 
 
-20. Fin
+17. Fin
